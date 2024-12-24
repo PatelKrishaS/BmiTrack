@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Libre+Baskerville&family=Roboto&family=Russo+One&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  html,body{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    background-color: grey;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+h1{
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+input{
+  padding:6px 80px;
+  border:1px solid #ccc;
+  border-radius:2px;
+  font-size: 15px;
+}
+
+.form_control{
+  margin-bottom: 40px;
+}
+
+button{
+  padding:10px 30px;
+  border-radius: 8px;
+  border: transparent solid 2px;
+  border: 2px solid black;
+  font-size: 20px;
+  margin-bottom: 30px;
+
+}
+
+#results{
+  color: #ccc;
+  font-size: 20px;
+}
+
+#weight_guide{
+  margin-top: 20px;
+  font-size: 20px;
+  color: white;
+}
